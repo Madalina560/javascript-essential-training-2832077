@@ -7,3 +7,14 @@
  * - Find an object that has another object inside of it to create a nested object.
  * - Test your objects in the browser console by accessing the entire object and its specific properties.
  */
+
+
+const plush = {
+    name: "Luigi plush",
+    lengthCM: 25,
+    widthCM: 15,
+    price: 7.99,
+    isBought: false,
+}
+
+console.log("Plush Info: ", plush);
