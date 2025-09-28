@@ -8,13 +8,21 @@
  * - Test your objects in the browser console by accessing the entire object and its specific properties.
  */
 
-
 const plush = {
-    name: "Luigi plush",
-    lengthCM: 25,
-    widthCM: 15,
-    price: 7.99,
-    isBought: false,
-}
+  name: "Luigi plush",
+  lengthCM: 25,
+  widthCM: 15,
+  price: 7.99,
+  isBought: false,
+};
+
+const bag = {
+  capacity: 25,
+  length: 50,
+  width: 30,
+  isOpen: false,
+  contains: plush,
+};
 
 console.log("Plush Info: ", plush);
+console.log("Bag & contents:", bag);
